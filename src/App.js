@@ -9,6 +9,7 @@ import {
 class App extends Component {
   render() {
     return (
+      <div>
       <div className="parallax">
         <div className="side">
           <ResumeeCard name="Emilse Varela" 
@@ -17,9 +18,9 @@ class App extends Component {
         </div>
         <div className="main">
           <ResumeeContent title="About Me" 
-                          content="Full Stack Web Developer with 4+ years of experience in .NET technologies. &nbsp;
-                          Guided through functional analysis and chaired developers team for over a year.
-                          Versatile, adaptive, avid researcher and quick learner." />
+                          content="I'm a full Stack Web Developer with 5+ years of experience in .NET technologies.
+                          I guided through functional analysis and chaired developers team for over a year.
+                          I consider myself versatile, adaptive, an avid researcher, and a quick learner." />
                   <br/>
           <ResumeeContent title="Experience" 
                   content="November 2016 - Present
@@ -95,6 +96,8 @@ Dabbled on:
                   Versatile, adaptive, avid researcher and quick learner.
         </div>
     </div>
+      </div>
+    
     );
   }
 }

@@ -1,20 +1,21 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import './ResumeeCard.css';
+import FontAwesome from 'react-fontawesome';
 
 
 const ResumeeCard = ({ imageSrc, name, description }) => (
         <div className="card">
           <img src={imageSrc} 
                 alt={name} 
-                className="card-image"></img>
+                className="card-image avatar"></img>
           <div className="container">
-            <h4><b>{name}</b></h4>             
+            <h2><b>{name}</b></h2>             
             <p>{description}</p> 
             <ul className='contact-info'>
-              <li>+5491158480988</li>
-              <li>emilse.varela@gmail.com</li>
-              <li>Medrano 1683 5B</li>
+              <li><FontAwesome name="linkedin"/></li>
+              <li><FontAwesome name="facebook"/></li>
+              <li><FontAwesome name="twitter"/></li>
             </ul>
           </div>
         </div>
