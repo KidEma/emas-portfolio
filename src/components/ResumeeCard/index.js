@@ -12,13 +12,18 @@ const ResumeeCard = ({ imageSrc, name, description }) => (
           <div className="container">
             <h2><b>{name}</b></h2>             
             <p>{description}</p> 
-            <ul className='contact-info'>
-              <li><FontAwesome name="linkedin"/></li>
-              <li><FontAwesome name="facebook"/></li>
-              <li><FontAwesome name="twitter"/></li>
-            </ul>
+            <ul className='contact-info social-icons'>
+              <li><FontAwesome name="linkedin" size="lg" /></li>
+              <li><FontAwesome name="github" size="lg"/></li>
+              <li><FontAwesome name="twitter" size="lg"/></li>
+            </ul>          
+
+          </div>
+          <div className="card-bottom">
+            <button className="bottom-button">Download CV</button>
           </div>
         </div>
+        
 );
 
 export default ResumeeCard;

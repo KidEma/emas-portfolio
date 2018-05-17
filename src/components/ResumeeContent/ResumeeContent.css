@@ -12,6 +12,7 @@
 .container {
     padding: 2px 16px;
     background-color: white;
+    background-color: var(--secondary);    
 }
 
 .card-image {

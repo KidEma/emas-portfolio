@@ -14,7 +14,7 @@ class App extends Component {
         <div className="side">
           <ResumeeCard name="Emilse Varela" 
                       imageSrc="/images/Ema.jpg" 
-                      description="Fullstack Web Dev" />
+                      description="Web Developer" />
         </div>
         <div className="main">
           <ResumeeContent title="About Me" 
