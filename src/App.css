@@ -7,7 +7,8 @@
     --secondary: #313c42;
     --background: #0f171b;
     --alternative-background: #A599B5;
-    --text-color: black;
+    --text-color: white;
+    --link-text-color: white;
 }
 html {
     color: var(--text-color);
@@ -32,36 +33,45 @@ html {
     overflow: hidden;
 }
 
-.side {
-    top: 20px;
-    bottom: 0;
-    position: fixed;
-    left: 20px;
-    width: 20%;
-    overflow-y: scroll;  
-    display: inline-block;
-    padding: 15px;
-}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
 
-.main {
-    width: 60%;
-    display: inline-block;
-    margin-left: calc(20% + 20px);
-    margin-right: calc(15% + 20px);
-    padding: 15px;
+@media only screen and (min-width: 956px)  {
+
+    .side {
+        top: 20px;
+        bottom: 0;
+        position: fixed;
+        left: 20px;
+        width: 20%;
+        overflow-y: scroll;  
+        display: inline-block;
+        padding: 15px;
+    }
+    .main {
+        width: 60%;
+        display: inline-block;
+        margin-left: calc(20% + 20px);
+        margin-right: calc(15% + 20px);
+        padding: 15px;
+    }
+
+    .navbar {
+        top: 20px;
+        bottom: 0;
+        position: fixed;
+        right: 20px;
+        width: 10%;
+        overflow-y: scroll;  
+        display: inline-block;
+        padding: 15px;
+    }
 }
 
-.navbar {
-    top: 20px;
-    bottom: 0;
-    position: fixed;
-    right: 20px;
-    width: 10%;
-    overflow-y: scroll;  
-    display: inline-block;
-    padding: 15px;
-}
+
+
+
+
 

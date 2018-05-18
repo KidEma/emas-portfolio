@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import './ResumeeCard.css';
+import SocialButton from '../SocialButton/'
 import FontAwesome from 'react-fontawesome';
 
 
@@ -13,9 +14,21 @@ const ResumeeCard = ({ imageSrc, name, description }) => (
             <h2><b>{name}</b></h2>             
             <p>{description}</p> 
             <ul className='contact-info social-icons'>
-              <li><FontAwesome name="linkedin" size="lg" /></li>
-              <li><FontAwesome name="github" size="lg"/></li>
-              <li><FontAwesome name="twitter" size="lg"/></li>
+              <li>
+                <SocialButton icon="linkedin" 
+                              text="LinkedIn"
+                              link="https://www.linkedin.com/in/emilse-varela-05a76859" />
+              </li>
+              <li>
+                <SocialButton icon="github" 
+                              text="GitHub"
+                              link="https://github.com/KidEma" />
+              </li>
+              <li>
+                <SocialButton icon="twitter" 
+                              text="twitter"
+                              link="https://twitter.com/ngEma89" />
+              </li>
             </ul>          
 
           </div>

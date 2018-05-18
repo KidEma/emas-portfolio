@@ -1,0 +1,4 @@
+.social-button {
+    cursor: pointer;
+    color: var(--link-text-color);
+}

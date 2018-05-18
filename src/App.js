@@ -10,6 +10,9 @@ class App extends Component {
   render() {
     return (
       <div>
+              <div className="navbar">
+          Full Stack Web Developer with 4+ years of experience in .NET technologies.
+        </div>
       <div className="parallax">
         <div className="side">
           <ResumeeCard name="Emilse Varela" 
@@ -84,17 +87,7 @@ Dabbled on:
                           Versatile, adaptive, avid researcher and quick learner." />
                   <br/>
         </div>
-        <div className="navbar">
-          Full Stack Web Developer with 4+ years of experience in .NET technologies.
-                  Guided through functional analysis and chaired developers team for over a year.
-                  Versatile, adaptive, avid researcher and quick learner.Full Stack Web Developer with 4+ years of experience in .NET technologies.
-                  Guided through functional analysis and chaired developers team for over a year.
-                  Versatile, adaptive, avid researcher and quick learner.Full Stack Web Developer with 4+ years of experience in .NET technologies.
-                  Guided through functional analysis and chaired developers team for over a year.
-                  Versatile, adaptive, avid researcher and quick learner.Full Stack Web Developer with 4+ years of experience in .NET technologies.
-                  Guided through functional analysis and chaired developers team for over a year.
-                  Versatile, adaptive, avid researcher and quick learner.
-        </div>
+
     </div>
       </div>
     
