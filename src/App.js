@@ -3,15 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 import {
   ResumeeCard,
-  ResumeeContent 
+  ResumeeContent
 } from './components'
+
+import { AboutMe, Experience } from './sections'
 
 class App extends Component {
   render() {
     return (
       <div>
               <div className="navbar">
-          Full Stack Web Developer with 4+ years of experience in .NET technologies.
+         This is going to be a navigation bar
         </div>
       <div className="parallax">
         <div className="side">
@@ -20,22 +22,13 @@ class App extends Component {
                       description="Web Developer" />
         </div>
         <div className="main">
-          <ResumeeContent title="About Me" 
-                          content="I'm a full Stack Web Developer with 5+ years of experience in .NET technologies.
-                          I guided through functional analysis and chaired developers team for over a year.
-                          I consider myself versatile, adaptive, an avid researcher, and a quick learner." />
+          <ResumeeContent title="About Me" >
+              <AboutMe />
+          </ResumeeContent>
                   <br/>
-          <ResumeeContent title="Experience" 
-                  content="November 2016 - Present
-.NET Programmer - Project: InEight HD Contracts
-Gradually implementing code improvements in a 50+ people distributed team, with an outstanding
-commitment to the project.
-Responsibilities:
-● Understanding user stories and writing quality code according requirements
-● Participating in daily meetings with offshore team
-● Assisting less experienced developers
-● Suggesting and carrying out technical improvements
-● Performing code reviews" />
+          <ResumeeContent title="Experience"> 
+          <Experience/>
+          </ResumeeContent>
  <br/>
                  <ResumeeContent title="Skills" 
                           content="From most experienced to less experienced

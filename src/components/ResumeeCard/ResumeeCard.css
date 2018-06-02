@@ -12,8 +12,7 @@
 .container {
     padding: 2px 16px;
     background-color: var(--main);
-    color: var(--text-color);
-    
+    color: var(--text-color);    
 }
 
 .card h2 {

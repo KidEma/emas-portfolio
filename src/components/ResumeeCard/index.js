@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../logo.svg';
 import './ResumeeCard.css';
 import SocialButton from '../SocialButton/'
+import HighlightedButton from '../HighlightedButton/'
 import FontAwesome from 'react-fontawesome';
 
 
@@ -26,14 +27,14 @@ const ResumeeCard = ({ imageSrc, name, description }) => (
               </li>
               <li>
                 <SocialButton icon="twitter" 
-                              text="twitter"
+                              text="Twitter"
                               link="https://twitter.com/ngEma89" />
               </li>
             </ul>          
 
           </div>
           <div className="card-bottom">
-            <button className="bottom-button">Download CV</button>
+            <HighlightedButton>Download CV</HighlightedButton>
           </div>
         </div>
         
