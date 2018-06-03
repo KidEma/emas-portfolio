@@ -26,6 +26,11 @@ const ResumeeCard = ({ imageSrc, name, description }) => (
                               link="https://github.com/KidEma" />
               </li>
               <li>
+                <SocialButton icon="bitbucket" 
+                              text="BitBucket"
+                              link="https://bitbucket.org/devstreet/" />
+              </li>
+              <li>
                 <SocialButton icon="twitter" 
                               text="Twitter"
                               link="https://twitter.com/ngEma89" />
