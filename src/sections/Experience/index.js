@@ -14,7 +14,8 @@ const styles = {
         backgroundColor: 'var(--secondary)',
         fontFamily: 'sans-serif',
         fontSize: '20px',
-        width: '95%',
+        width: '98%',
+        boxShadow: 'none'
         
     },
     subtitle: {
@@ -24,6 +25,14 @@ const styles = {
     },
     title:{
         fontWeight: "bold"
+    },
+    description: {
+        backgroundColor: 'var(--background)',
+    },
+    descriptionTitle: {
+        color: "var(--text)",
+        fontWeight: 'bold'
+        
     }
 }
 
@@ -32,7 +41,7 @@ class Experience extends React.Component {
   render() {
     return (
       <div >
-        <Timeline>
+        <Timeline >
             <TimelineEvent
                 title="Prokarma Argentina"
                 titleStyle={styles.title}                
@@ -41,19 +50,32 @@ class Experience extends React.Component {
                 icon={<FontAwesome name="building" />}  
                 iconColor="var(--highlight-alt)"
                 style={styles.root}
+                bubbleStyle={styles.bubble}
                 contentStyle={styles.root}
             >
-                <ExpansionPanel style={styles.root}>
-                    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                        <Typography>Expansion Panel 1</Typography>
+                <ExpansionPanel style={styles.description}>
+                    <ExpansionPanelSummary style={styles.descriptionTitle} expandIcon={<ExpandMoreIcon />}>
+                        Fullstack Developer
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        <Typography>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                            sit amet blandit leo lobortis eget.
-                        </Typography>
-                </ExpansionPanelDetails>
-            </ExpansionPanel> 
+                    <div>
+                        Developing new features according to user stories and design documents.
+                        <br/>
+                        Gradually implementing code improvements in a 50+ people distributed team, with an outstanding
+                        commitment to the project.
+                        <br/> 
+                        Responsibilities:                    
+                        <ul>
+                            <li>Understanding user stories and writing quality code according requirements</li>
+                            <li>Creating applications from design documents and style guides</li>
+                            <li>Participating in daily meetings with offshore team</li>
+                            <li>Assisting less experienced developers</li>
+                            <li>Suggesting and carrying out technical improvements</li>
+                            <li>Performing code reviews</li>
+                        </ul>
+                    </div>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel> 
             </TimelineEvent>
             <TimelineEvent
                 title="Consisnet SA"
@@ -65,11 +87,30 @@ class Experience extends React.Component {
                 style={styles.root}
                 contentStyle={styles.root}
             >
-               Functional Analyst
-               <br/>
-               Team Leader
-               <br/>
-               Web Developer               
+            <ExpansionPanel style={styles.description}>
+                    <ExpansionPanelSummary style={styles.descriptionTitle} expandIcon={<ExpandMoreIcon />}>
+                        Functional Analyst and Technical Leader
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                    <div>
+                        Promoted after 2 years of expertise in programming.
+                        <br/>
+                        Encouraged company modernization by implementing a private GitLab server, Jenkins                                                                                                                                                                                                               and Redmine as well as providing instruction to the team for its use.
+                        Responsibilities included:
+                        <br/> 
+                        <ul>
+                            <li>Coordinating and attending meeting with the clients for information gathering.</li>
+                            <li>Analysis and design of solutions with proper time and budget estimation.</li>
+                            <li>Writing user stories and use cases.</li>
+                            <li>Researching and implementing new technologies and tools for development.</li>
+                            <li>Instructing, guiding and supporting the programmers through the development phases in simultaneous projects.</li>
+                            <li>Carrying out and supervising releases</li>
+                            <li>Reporting status and milestones to project managers and client’s executives.</li>
+                            <li>Instructing and assisting users on the operation of resulting software.</li>
+                        </ul>
+                    </div>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>             
                
             </TimelineEvent>
             <TimelineEvent
@@ -82,7 +123,25 @@ class Experience extends React.Component {
                 style={styles.root}
                 contentStyle={styles.root}
             >
-               Fullstack Web Developer (.NET)
+                 <ExpansionPanel style={styles.description}>
+                    <ExpansionPanelSummary style={styles.descriptionTitle} expandIcon={<ExpandMoreIcon />}>
+                        Functional Analyst and Technical Leader
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                    <div>
+                    Continuously researching and implementing new technologies. Carefully applying design patterns and SOLID principles.
+                        <br/>
+                        Responsibilities included: 
+                        <ul>
+                            <li>Understanding use cases</li>
+                            <li>Writing scalable and understandable code</li>
+                            <li>Refactoring legacy code</li>
+                            <li>Testing and delivering required tasks on time</li>
+                        </ul>
+                    </div>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>             
+               
             </TimelineEvent>
         </Timeline>
       </div>

@@ -74,10 +74,14 @@ Dabbled on:
 ● NUnit (TDD)
 " />
                   <br/>
-<ResumeeContent title="Education" 
-                          content="Full Stack Web Developer with 4+ years of experience in .NET technologies. &nbsp;
-                          Guided through functional analysis and chaired developers team for over a year.
-                          Versatile, adaptive, avid researcher and quick learner." />
+<ResumeeContent title="Education" >
+Universidad Tecnológica Nacional (UTN FRBA)
+System Engineer— 2016- Present
+
+Universidad de Buenos Aires (Not graduated)
+System Engineer— 2009 - 2015
+System Analyst— 2011 - 2015
+</ResumeeContent>
                   <br/>
         </div>
 
