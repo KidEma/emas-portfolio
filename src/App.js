@@ -35,17 +35,15 @@ class App extends Component {
                  </ResumeeContent>
                   <br/>
 <ResumeeContent title="Education" >
-<ul>
-<li>Universidad Tecnológica Nacional (UTN FRBA)
-System Engineer— 2016- Present</li>
-
-<li>Universidad de Buenos Aires (Not graduated)
   <ul>
-<li>System Engineer— 2009 - 2015</li>
-<li>System Analyst— 2011 - 2015</li>
-</ul>
-</li>
-</ul>
+    <li>Universidad Tecnológica Nacional (UTN FRBA) System Engineer— 2016- Present</li>
+    <li>Universidad de Buenos Aires (Not graduated)
+      <ul>
+        <li>System Engineer— 2009 - 2015</li>
+        <li>System Analyst— 2011 - 2015</li>
+      </ul>
+    </li>
+  </ul>
 </ResumeeContent>
                   <br/>
         </div>
