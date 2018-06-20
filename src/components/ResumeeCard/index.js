@@ -8,7 +8,7 @@ import FontAwesome from 'react-fontawesome';
 
 const ResumeeCard = ({ imageSrc, name, description }) => (
         <div className="card">
-          <img src={imageSrc} 
+          <img src={process.env.PUBLIC_URL + imageSrc} 
                 alt={name} 
                 className="card-image avatar"></img>
           <div className="container">
