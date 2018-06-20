@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import Image from './Ema.jpg'
 import './ResumeeCard.css';
 import SocialButton from '../SocialButton/'
 import HighlightedButton from '../HighlightedButton/'
@@ -8,7 +8,7 @@ import FontAwesome from 'react-fontawesome';
 
 const ResumeeCard = ({ imageSrc, name, description }) => (
         <div className="card">
-          <img src={process.env.PUBLIC_URL + imageSrc} 
+          <img src={Image} 
                 alt={name} 
                 className="card-image avatar"></img>
           <div className="container">
