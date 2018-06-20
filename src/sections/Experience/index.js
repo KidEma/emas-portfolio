@@ -15,8 +15,7 @@ const styles = {
         fontFamily: 'sans-serif',
         fontSize: '20px',
         width: '98%',
-        boxShadow: 'none'
-        
+        boxShadow: 'none'        
     },
     subtitle: {
         color: "var(--highlight)",
@@ -125,7 +124,7 @@ class Experience extends React.Component {
             >
                  <ExpansionPanel style={styles.description}>
                     <ExpansionPanelSummary style={styles.descriptionTitle} expandIcon={<ExpandMoreIcon />}>
-                        Functional Analyst and Technical Leader
+                        Software Developer
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                     <div>

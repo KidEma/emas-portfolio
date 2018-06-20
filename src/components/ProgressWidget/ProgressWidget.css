@@ -1,0 +1,11 @@
+.widget-container{
+    text-align: center;
+    display: inline-block;
+    margin: 2vw;
+    margin-top: 0px;
+}
+
+.widget-percentage{
+    position: relative;
+    top: 65px;
+}
